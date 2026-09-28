@@ -1,0 +1,12 @@
+package com.guardianxr.ar;
+import android.app.*;import android.os.*;import android.content.*;import android.graphics.Color;import android.view.*;import android.widget.*;
+public class AssessmentActivity extends Activity{
+ SharedPreferences p; LinearLayout box; int score=0,q=0; String module;
+ String[][] fire={{"Which action should come first in a fire emergency?","Raise alarm","Ignore smoke","Use lift","Raise alarm"},{"Which route should be used?","Marked safe exit","Lift","Hazard zone","Marked safe exit"},{"What should be confirmed before completion?","Alarm and evacuation route","Phone battery","Wi-Fi","Alarm and evacuation route"}};
+ String[][] gas={{"Before entering a suspected gas zone?","Establish exclusion zone","Enter alone","Remove PPE","Establish exclusion zone"},{"Which procedure is required?","PPE and buddy check","Work alone","Ignore ventilation","PPE and buddy check"},{"What should be confirmed?","Ventilation and escape route","Music volume","Camera zoom","Ventilation and escape route"}};
+ public void onCreate(Bundle b){super.onCreate(b);p=getSharedPreferences("guardianxr",MODE_PRIVATE);module=getIntent().getStringExtra("module");if(module==null)module="FIRE";showQ();}
+ TextView t(String s,int z){TextView v=new TextView(this);v.setText(s);v.setTextSize(z);v.setTextColor(Color.WHITE);v.setPadding(18,18,18,18);return v;}
+ void base(){box=new LinearLayout(this);box.setOrientation(LinearLayout.VERTICAL);box.setPadding(28,45,28,28);box.setBackgroundColor(0xff07101c);setContentView(box);}
+ void showQ(){base();String[][] a=module.equals("GAS")?gas:fire;if(q>=a.length){finishTest(a.length);return;}box.addView(t("GuardianXR • "+module+" ASSESSMENT",20));box.addView(t((q+1)+"/"+a.length+"  "+a[q][0],18));for(int i=1;i<=3;i++){Button x=new Button(this);x.setText(a[q][i]);final String ans=a[q][i],correct=a[q][4];x.setOnClickListener(v->{if(ans.equals(correct))score++;q++;showQ();});box.addView(x);}}
+ void finishTest(int total){base();int pct=score*100/total;boolean pass=pct>=67;p.edit().putInt(module+"_score",pct).putBoolean(module+"_passed",pass).apply();box.addView(t(pass?"PASSED • "+pct+"%":"RETRY REQUIRED • "+pct+"%",24));box.addView(t(pass?"Assessment verified. Generate your offline QR certificate.":"Score 67% or higher to generate a certificate.",17));Button c=new Button(this);c.setText(pass?"Generate QR Certificate":"Back to Training");c.setOnClickListener(v->{if(pass){Intent i=new Intent(this,CertificateActivity.class);i.putExtra("module",module);startActivity(i);}finish();});box.addView(c);}
+}
