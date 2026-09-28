@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GuardianXR</string>
+
+    <string name="spatial_safety_training">ᱥᱯᱮᱥᱤᱭᱟᱞ ᱥᱮᱯᱷᱴᱤ ᱴᱨᱮᱱᱤᱝ</string>
+    <string name="ar_live">AR ᱞᱟᱭᱤᱵᱷ</string>
+
+    <string name="fire">🔥 ᱥᱮᱸᱜᱮᱞ</string>
+    <string name="gas">☁ ᱜᱮᱥ</string>
+    <string name="complete">✓ ᱯᱩᱨᱟᱹ ᱢᱮ</string>
+    <string name="start_assessment">Assessment ᱮᱦᱚᱵ ᱢᱮ</string>
+
+    <string name="fire_scan">ᱥᱟᱛᱟᱢ ᱥᱠᱮᱱ ᱢᱮ ᱟᱨ ᱥᱮᱸᱜᱮᱞ ᱦᱟᱹᱱᱤ ᱫᱚᱦᱚ ᱞᱟᱹᱜᱤᱫ ᱴᱮᱯ ᱢᱮ᱾</string>
+    <string name="fire_step1">ᱥᱟᱹᱯᱷᱤᱭᱟᱹ ᱥᱮᱫ ᱟᱨ extinguisher ᱯᱨᱚᱠᱨᱤᱭᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ᱾</string>
+    <string name="fire_step2">Alarm ᱟᱨ evacuation route ᱯᱩᱥᱴᱟᱹᱣ ᱢᱮ᱾</string>
+    <string name="fire_complete">Fire &amp; Explosion module ᱯᱩᱨᱟᱹ — assessment ᱮᱦᱚᱵ ᱢᱮ᱾</string>
+
+    <string name="gas_scan">ᱥᱟᱛᱟᱢ ᱥᱠᱮᱱ ᱢᱮ ᱟᱨ gas-leak ᱦᱟᱹᱱᱤ ᱫᱚᱦᱚ ᱞᱟᱹᱜᱤᱫ ᱴᱮᱯ ᱢᱮ᱾</string>
+    <string name="gas_step1">Exclusion zone, PPE ᱟᱨ buddy check ᱯᱩᱨᱟᱹ ᱢᱮ᱾</string>
+    <string name="gas_step2">Ventilation ᱟᱨ escape route ᱯᱩᱥᱴᱟᱹᱣ ᱢᱮ᱾</string>
+    <string name="gas_complete">Gas Leak module ᱯᱩᱨᱟᱹ — assessment ᱮᱦᱚᱵ ᱢᱮ᱾</string>
+
+    <string name="assessment">ᱥᱮᱯᱷᱴᱤ Assessment</string>
+    <string name="passed">ᱯᱟᱥ</string>
+    <string name="retry_required">ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ ᱢᱮ</string>
+    <string name="generate_certificate">QR Certificate ᱵᱮᱱᱟᱣ ᱢᱮ</string>
+    <string name="certificate">ᱥᱮᱯᱷᱴᱤ ᱴᱨᱮᱱᱤᱝ Certificate</string>
+    <string name="verify_certificate">QR Certificate ᱧᱮᱞ ᱢᱮ</string>
+    <string name="admin_dashboard">Compliance Dashboard</string>
+</resources>
