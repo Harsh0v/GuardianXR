@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="__arcore_cancel">Cancel</string>
-    <string name="__arcore_continue">Continue</string>
-    <string name="__arcore_install_app">This application requires the latest version of Google Play Services for AR.</string>
-    <string name="__arcore_install_feature">This feature requires the latest version of Google Play Services for AR.</string>
-    <string name="__arcore_installing">Installing Google Play Services for AR…</string>
-    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:fontFamily">sans</item><item name="android:colorAccent">#00C853</item></style>
-</resources>
