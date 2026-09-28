@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:1:1-14:12
+MERGED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:8:1-45:12
+	package
+		INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:2:2-61
+	android:name
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:2:19-59
+uses-feature#android.hardware.camera.ar
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:3:2-83
+	android:required
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:3:58-81
+	android:name
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:3:16-57
+application
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:4:2-13:16
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:4:2-13:16
+MERGED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:29:5-43:19
+MERGED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:29:5-43:19
+	android:extractNativeLibs
+		INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:6:6-32
+	android:roundIcon
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:8:6-51
+	android:icon
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:7:6-40
+	android:theme
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:5:6-37
+meta-data#com.google.ar.core
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:9:3-74
+	android:value
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:9:48-72
+	android:name
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:9:14-47
+activity#com.guardianxr.ar.MainActivity
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:10:3-12:14
+	android:screenOrientation
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:10:42-78
+	android:exported
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:10:79-102
+	android:name
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:11:4-145
+action#android.intent.action.MAIN
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:11:19-70
+	android:name
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:11:27-68
+category#android.intent.category.LAUNCHER
+ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:11:70-129
+	android:name
+		ADDED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:11:80-127
+uses-sdk
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+MERGED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:16:5-18:41
+	android:targetSdkVersion
+		INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml
+queries
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:20:5-27:15
+package#com.google.ar.core
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:21:9-54
+	android:name
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:21:18-51
+package#com.android.vending
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:22:9-55
+	android:name
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:22:18-52
+intent#action:name:com.google.android.play.core.install.BIND_INSTALL_SERVICE
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:24:9-26:18
+action#com.google.android.play.core.install.BIND_INSTALL_SERVICE
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:25:13-96
+	android:name
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:25:21-93
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:32:9-34:41
+	android:value
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:34:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:33:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:36:9-42:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:39:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:41:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:40:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:38:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:42:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:37:13-62

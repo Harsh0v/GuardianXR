@@ -1,0 +1,16 @@
+com.guardianxr.ar:style/AppTheme = 0x7f070000
+com.guardianxr.ar:string/__arcore_install_feature = 0x7f060003
+com.guardianxr.ar:string/__arcore_install_app = 0x7f060002
+com.guardianxr.ar:mipmap/ic_launcher = 0x7f040000
+com.guardianxr.ar:string/__arcore_cancel = 0x7f060000
+com.guardianxr.ar:string/__arcore_continue = 0x7f060001
+com.guardianxr.ar:id/__arcore_cancelButton = 0x7f020000
+com.guardianxr.ar:mipmap/ic_launcher_monochrome = 0x7f040002
+com.guardianxr.ar:layout/__arcore_education = 0x7f030000
+com.guardianxr.ar:drawable/ic_launcher_background = 0x7f010000
+com.guardianxr.ar:mipmap/ic_launcher_foreground = 0x7f040001
+com.guardianxr.ar:string/__arcore_installing = 0x7f060004
+com.guardianxr.ar:id/__arcore_continueButton = 0x7f020001
+com.guardianxr.ar:raw/keep_arcore = 0x7f050000
+com.guardianxr.ar:mipmap/ic_launcher_round = 0x7f040003
+com.guardianxr.ar:id/__arcore_messageText = 0x7f020002

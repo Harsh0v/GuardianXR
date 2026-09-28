@@ -1,0 +1,17 @@
+com.guardianxr.ar
+drawable ic_launcher_background
+id __arcore_cancelButton
+id __arcore_continueButton
+id __arcore_messageText
+layout __arcore_education
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_monochrome
+mipmap ic_launcher_round
+raw keep_arcore
+string __arcore_cancel
+string __arcore_continue
+string __arcore_install_app
+string __arcore_install_feature
+string __arcore_installing
+style AppTheme

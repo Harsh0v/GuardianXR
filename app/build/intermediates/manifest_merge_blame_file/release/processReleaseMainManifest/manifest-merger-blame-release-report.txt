@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.guardianxr.ar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:2:2-61
+11-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:2:19-59
+12
+13    <uses-feature
+13-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:3:2-83
+14        android:name="android.hardware.camera.ar"
+14-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:3:16-57
+15        android:required="true" />
+15-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:3:58-81
+16
+17    <queries>
+17-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:20:5-27:15
+18        <package android:name="com.google.ar.core" />
+18-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:21:9-54
+18-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:21:18-51
+19        <package android:name="com.android.vending" />
+19-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:22:9-55
+19-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:22:18-52
+20
+21        <intent>
+21-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:24:9-26:18
+22            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+22-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:25:13-96
+22-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:25:21-93
+23        </intent>
+24    </queries>
+25
+26    <application
+26-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:4:2-9:16
+27        android:extractNativeLibs="false"
+28        android:label="GuardianXR"
+28-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:4:47-73
+29        android:theme="@style/AppTheme" >
+29-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:4:15-46
+30        <meta-data
+30-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:5:3-74
+31            android:name="com.google.ar.core"
+31-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:5:14-47
+32            android:value="required" />
+32-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:5:48-72
+33
+34        <activity
+34-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:6:3-8:14
+35            android:name="com.guardianxr.ar.MainActivity"
+35-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:6:13-41
+36            android:exported="true"
+36-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:6:79-102
+37            android:screenOrientation="portrait" >
+37-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:6:42-78
+38            <intent-filter>
+38-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:7:4-145
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:7:19-70
+39-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:7:27-68
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:7:70-129
+41-->D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\AndroidManifest.xml:7:80-127
+42            </intent-filter>
+43        </activity>
+44        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+45        <meta-data
+45-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:32:9-34:41
+46            android:name="com.google.ar.core.min_apk_version"
+46-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:33:13-62
+47            android:value="250210000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+47-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:34:13-38
+48        <activity
+48-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:36:9-42:80
+49            android:name="com.google.ar.core.InstallActivity"
+49-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:37:13-62
+50            android:configChanges="keyboardHidden|orientation|screenSize"
+50-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:38:13-74
+51            android:excludeFromRecents="true"
+51-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:39:13-46
+52            android:exported="false"
+52-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:40:13-37
+53            android:launchMode="singleTop"
+53-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:41:13-43
+54            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+54-->[com.google.ar:core:1.48.0] C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\AndroidManifest.xml:42:13-77
+55    </application>
+56
+57</manifest>

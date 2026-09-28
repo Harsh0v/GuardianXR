@@ -1,0 +1,4 @@
+com.guardianxr.ar.test.app-androidTest-0 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\generated\res\resValues\androidTest\debug
+com.guardianxr.ar.test.app-mergeDebugAndroidTestResources-1 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.guardianxr.ar.test.app-mergeDebugAndroidTestResources-2 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.guardianxr.ar.test.app-debugAndroidTest-3 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

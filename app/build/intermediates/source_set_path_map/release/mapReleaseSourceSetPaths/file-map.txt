@@ -1,0 +1,8 @@
+com.guardianxr.ar.app-jetified-core-1.48.0-0 C:\Users\DELL\.gradle\caches\9.3.0\transforms\88b28b01c396595fe8f1c76292b70642\workspace\transformed\jetified-core-1.48.0\res
+com.guardianxr.ar.app-pngs-1 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\generated\res\pngs\release
+com.guardianxr.ar.app-resValues-2 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\generated\res\resValues\release
+com.guardianxr.ar.app-packageReleaseResources-3 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.guardianxr.ar.app-packageReleaseResources-4 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.guardianxr.ar.app-release-5 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.guardianxr.ar.app-main-6 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\main\res
+com.guardianxr.ar.app-release-7 D:\Project 02\fixed\GuardianXR_ARCore_FINAL_POLISHED-1\GuardianXR_ARCore\android-arcore\app\src\release\res
