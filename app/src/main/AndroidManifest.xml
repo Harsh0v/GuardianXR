@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <uses-permission android:name="android.permission.CAMERA"/>
+ <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+ <application
+     android:theme="@style/AppTheme"
+     android:label="GuardianXR"
+     android:icon="@mipmap/ic_launcher"
+     android:roundIcon="@mipmap/ic_launcher_round">
+  <meta-data android:name="com.google.ar.core" android:value="required"/>
+  <activity android:name=".AssessmentActivity"/>
+  <activity android:name=".CertificateActivity"/>
+  <activity android:name=".VerifyActivity"/>
+  <activity android:name=".AdminActivity"/>
+  <activity android:name=".RecordsActivity"/>
+  <activity android:name=".DashboardActivity" android:screenOrientation="portrait" android:exported="true">
+   <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+  </activity>
+  <activity android:name=".MainActivity" android:screenOrientation="portrait" android:exported="false"/>
+ </application>
+</manifest>
